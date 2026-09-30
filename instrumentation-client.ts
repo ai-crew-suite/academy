@@ -15,11 +15,12 @@ if (shouldInitLogRocket) {
 if (shouldInitSentry) {
   Sentry.init({
     dsn: sentryDsn,
-    // Adds request headers and IP for users
-    sendDefaultPii: true,
     tracesSampleRate: 0.1,
-    // Enable logs to be sent to Sentry
-    enableLogs: true,
+    dataCollection: {
+      httpHeaders: true,
+      cookies: true,
+      userInfo: true,
+    },
   });
 }
 

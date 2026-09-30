@@ -15,21 +15,28 @@ const stylelintConfig = {
       true,
       {
         ignoreAtRules: [
-          "theme",
-          "source",
-          "plugin",
-          "utility",
-          "custom-variant",
-          "variant",
           "apply",
-          "reference",
-          "tailwind",
-          "config",
-          "page",
           "bottom-left",
           "bottom-right",
+          "config",
+          "custom-variant",
+          "layer",
+          "page",
+          "plugin",
+          "reference",
+          "source",
+          "tailwind",
+          "theme",
+          "utility",
+          "variant",
         ],
       },
+    ],
+    "at-rule-prelude-no-invalid": [
+      true,
+      {
+        "ignoreAtRules": ["tailwind", "apply", "layer", "config", "theme"]
+      }
     ],
     "color-function-alias-notation": null,
     "color-function-notation": null,
