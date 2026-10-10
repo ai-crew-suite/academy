@@ -1,0 +1,18 @@
+{
+  "/(page)/page": "/",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/blog/[...mdxPath]/page": "/blog/[...mdxPath]",
+  "/blog/page": "/blog",
+  "/compliance/page": "/compliance",
+  "/cookies/page": "/cookies",
+  "/docs/[...mdxPath]/page": "/docs/[...mdxPath]",
+  "/docs/page": "/docs",
+  "/favicon.ico/route": "/favicon.ico",
+  "/privacy/page": "/privacy",
+  "/robots.txt/route": "/robots.txt",
+  "/signup/page": "/signup",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/terms/page": "/terms",
+  "/tour/page": "/tour"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "debugId": "8c9b4f1a-7bc9-473e-fd7c-b8c22f369915",
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["../../../../node_modules/.pnpm/next%4016.3.3_%40babel%2Bcore%407.29.7_supports-color%408.1.1__%40opentelemetry%2Bapi%401.9.1_%40types%2Bno_76a52cce157ea545e244dcaacf603670/node_modules/next/src/client/components/builtin/unauthorized.tsx"],"sourcesContent":["import { HTTPAccessErrorFallback } from '../http-access-fallback/error-fallback'\n\nexport default function Unauthorized() {\n  return (\n    <HTTPAccessErrorFallback\n      status={401}\n      message=\"You're not authorized to access this page.\"\n    />\n  )\n}\n"],"names":["Unauthorized","HTTPAccessErrorFallback","status","message"],"mappings":"sHAEA,UAAA,qCAAwBA,0BAFgB,CAAA,CAAA,IAAA,GAEzB,SAASA,IACtB,MACE,CADF,AACE,EAAA,EAAA,GAAA,EAACC,EADH,AACGA,uBAAuB,CAAA,CACtBC,OAAQ,IACRC,QAAQ,8CAGd","ignoreList":[0]}}]
+}

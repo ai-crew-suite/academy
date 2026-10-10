@@ -33,6 +33,14 @@ yarn lint
 yarn test:unit
 ```
 
+### 3. Adding Packages
+
+This repo sets `enableImmutableCache` to `true` in `.yarnrc.yml` for compliance with FINRA, SOC-2, and HIPAA enterprise environments. This enforces cryptographic reproducibility and supply-chain immutability in the repo. It also blocks adding or upgrading package versions locally. Renovatebot handles this automatically by executing Yarn in a mode equivalent to `--mode=update-lockfile`. To add a package locally:
+
+```bash
+YARN_ENABLE_IMMUTABLE_CACHE=false yarn install
+```
+
 ## 🚀 Release & Publication Management
 
 Publish a new version:

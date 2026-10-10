@@ -1,0 +1,3 @@
+{
+  "/blog/[...mdxPath]/page": "app/blog/[...mdxPath]/page.js"
+}
