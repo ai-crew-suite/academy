@@ -56,7 +56,8 @@
     "three": "catalog:prod"
   },
   "devDependencies": {
-    "@ai-crew-suite/cli": "catalog:dev",
+    "@ai-crew-suite/crew-cli": "catalog:dev",
+    "@changesets/cli": "catalog:dev",
     "@tailwindcss/postcss": "catalog:dev",
     "@testing-library/dom": "catalog:dev",
     "@testing-library/jest-dom": "catalog:dev",
@@ -80,5 +81,8 @@
     "typescript": "catalog:dev",
     "vite": "catalog:dev",
     "vitest": "catalog:dev"
+  },
+  "resolutions": {
+    "got": "11.8.6"
   }
 }
